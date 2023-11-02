@@ -39,6 +39,11 @@
     font-family: var(--rtc-primary-font);
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
+
   ul, ol {
   list-style: none;
 }
@@ -564,6 +569,8 @@ a {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        scroll-behavior: smooth;
+        
         
       }
 
@@ -585,6 +592,7 @@ a {
         display: flex;
         gap: 25px;
         
+        
          
       }
 
@@ -599,7 +607,11 @@ a {
          align-items: center;
          justify-content: center;
          justify-items: center;
-      }
+       }
+
+       #scroll {
+        scroll-behavior: smooth;
+       }
 
       @media (max-width: 390px) {
         
